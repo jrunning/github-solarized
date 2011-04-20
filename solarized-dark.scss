@@ -1,0 +1,191 @@
+// TODO: Diff colors that aren't ugly
+
+$base03 :  #002b36;
+$base02 :  #073642;
+$base01 :  #586e75;
+$base00 :  #657b83;
+$base0  :  #839496;
+$base1  :  #93a1a1;
+$base2  :  #eee8d5;
+$base3  :  #fdf6e3;
+$yellow :  #b58900;
+$orange :  #cb4b16;
+$red    :  #dc322f;
+$magenta:  #d33682;
+$violet :  #6c71c4;
+$blue   :  #268bd2;
+$cyan   :  #2aa198;
+$green  :  #859900;
+
+.highlight {
+  color            : $base0;
+  background-color : $base03;
+
+  // error
+  .err { 
+    color            : $red;
+    background-color : $base02;
+  }
+
+  // declaration e.g. #include
+  .cp {
+    color       : $base01;
+    font-weight : bold;
+  }
+
+  // ??
+  .cs {
+    color       : $base01;
+    font-weight : bold;
+    font-style  : italic;
+  }
+
+  // diff deletion
+  .gd {
+    color: $base0;
+    background-color : #fdd;
+  }
+
+  // diff inline deletion
+  .gd .x {
+    background-color : #faa;
+  }
+
+  // diff ??
+  .ge {
+    font-style : italic;
+  }
+
+  // diff insertion
+  .gi {
+    background-color : #dfd;
+  }
+
+  // diff inline insertion
+  .gi .x {
+    background-color : #afa;
+  }
+
+  // diff ??
+  .go {
+    color : $base0;
+  }
+
+  // diff ??
+  .gu {
+    color       : $magenta;
+    font-weight : bold;
+  }
+
+  // diff ??
+  .gs {
+    font-weight : bold;
+  }
+
+  // diff ??
+  .gr, .gt {
+    color: $magenta;
+  }
+
+  // diff ??
+  .gh {
+    color: $base01;
+  }
+
+  // diff ??
+  .gp {
+    color: $base01;
+  }
+
+  // special words (JS 'document', C 'NULL', Ruby 'require'
+  .nb {
+    color: $green;
+  }
+
+  // ??
+  .ni {
+    color: $magenta;
+  }
+
+  // HTML, Haml, XML tags
+  .nt {
+    color: $blue;
+  }
+
+  // ??
+  .w {
+    color: $base01;
+  }
+
+  // ??
+  .sr {
+    color: $green;
+  }
+
+  // ??
+  .ss {
+    color: $cyan;
+  }
+
+  // comments
+  .c, .cm, .c1 {
+    color: $base01;
+    font-style:italic;
+  }
+
+  // keywords, symbols
+  .k, .kc, .kd, .kp, .kr, .kt, .o, .ow {
+    font-weight: bold;
+  }
+
+  .k {
+    color: $green;
+  }
+
+  // keyword ??
+  .kt {
+    color: $yellow;
+  }
+
+  // special variables e.g. __FILE__, None
+  .bp {
+    color: $base1;
+  }
+
+  // module names e.g. "sys" in "import sys"
+  .nn {
+    color: $base1;
+  }
+
+  // CSS class rule, Ruby class declaration
+  .nc {
+    color: $yellow;
+    font-weight:bold;
+  }
+
+  .m, .mf, .mh, .mi, .mo, .il {
+    color:#099;
+  }
+
+  // strings
+  .s, .sb, .sc, .sd, .s2, .se, .sh, .si, .sx, .s1 {
+    color: $cyan;
+  }
+
+  // literals e.g. 3.14, 600px
+  .na, .no, .nv {
+    color: $cyan;
+  }
+
+  // ??
+  .vc, .vg, .vi {
+    color: $cyan;
+  }
+
+  .ne, // ??
+  .nf  // CSS id rule
+  {
+    color: $red;
+    font-weight:bold;
+  }
+}
