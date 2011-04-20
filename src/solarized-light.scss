@@ -160,8 +160,9 @@ $green  :  #859900;
     font-weight:  bold;
   }
 
+  // literals
   .m, .mf, .mh, .mi, .mo, .il {
-    color:  #099;
+    color: $cyan;
   }
 
   // strings

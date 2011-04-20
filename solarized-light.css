@@ -26,8 +26,9 @@
 .highlight .bp { color: #586e75; }
 .highlight .nn { color: #586e75; }
 .highlight .nc { color: #b58900; font-weight: bold; }
-.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo, .highlight .il { color: #099; }
+.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo, .highlight .il { color: #2aa198; }
 .highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx, .highlight .s1 { color: #2aa198; }
-.highlight .na, .highlight .no, .highlight .nv { color: #2aa198; }
+.highlight .na, .highlight .nv { color: #2aa198; }
+.highlight .no { color: #b58900; }
 .highlight .vc, .highlight .vg, .highlight .vi { color: #268bd2; }
 .highlight .ne, .highlight .nf { color: #dc322f; font-weight: bold; }
