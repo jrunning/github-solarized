@@ -173,8 +173,13 @@ $green  :  #859900;
   }
 
   // literals e.g. 3.14, 600px
-  .na, .no, .nv {
+  .na, .nv {
     color: $cyan;
+  }
+
+  // constants?
+  .no {
+    color : $yellow;
   }
 
   // class, global, and instance variables
