@@ -11,23 +11,23 @@ the few files I checked.
   * `cm`: Multi-line comment (`/* ... */`)
   * `cp`: Declaration e.g. `#include ...` or `<!DOCTYPE ...>`
 
-* Diffs
+* **Diffs**
   * `gd`: Diff deletion
   * `gd.x`: Diff inline deletion
   * `gi`: Diff insertion
   * `gi.x`: Diff inline insertion
 
-* Keywords
+* **Keywords**
   * `k`: Keyword e.g. `this`, `else`, `do`, or CSS's `margin`, `bold`
   * `kd`: Variable, function declaration
   * `kt`:	Type e.g. `int`, `void`
 
-* Literals
+* **Literals**
   * `m`: Literal value e.g. `800px` in CSS
   * `mi`: Integer value e.g. `55`, `8L`
   * `mf`: Float value e.g. `1.5`
 
-* Identifiers/variable names
+* **Identifiers/variable names**
   * `n`:	Generic
   * `na`:	HTML attr name=
   * `nb`: Declarations and special words, e.g.  `document` in JavaScript, `require` in Ruby, `NULL` in C
@@ -44,7 +44,7 @@ the few files I checked.
 * `p`: Brackets and grouping symbols, e.g. `{}`, `[]`, `()`, `,` in JavaScript, `/` in Haml (e.g. `%br/`)
 * `px`:	Property in JavaScript, e.g. "log" in `console.log`
 
-* Strings
+* **Strings**
   * `s`: Quoted HTML attribute value
   * `s1`:	Single-quoted string
   * `s2`: Double-quoted string
@@ -52,5 +52,3 @@ the few files I checked.
   * `se`:	`\` in Bash (line continuation)
   * `si`: String interpolation
   * `sr`: Regular expression
-
-
