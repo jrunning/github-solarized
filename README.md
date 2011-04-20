@@ -7,7 +7,7 @@ A [Solarized][1] userstyle (custom CSS) for viewing source code on [GitHub][2].
 
 Usage
 -----
-The easiest way to use these styles are to install one from userstyles.org,
+The easiest way to use these styles is to install one from userstyles.org,
 which supports most browsers. Find them here:
 
 * [GitHub Solarized Dark][3]
