@@ -52,3 +52,8 @@ the few files I checked.
   * `se`:	  `\` in Bash (line continuation)
   * `si`:   String interpolation
   * `sr`:   Regular expression
+
+* **Variables**
+  * `vc`:   Class variable
+  * `vg`:   Global variable
+  * `vi`:   Instance variable
