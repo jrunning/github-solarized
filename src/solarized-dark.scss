@@ -18,68 +18,68 @@ $cyan   :  #2aa198;
 $green  :  #859900;
 
 .highlight {
-  color            : $base0;
-  background-color : $base03;
+  color:             $base0;
+  background-color:  $base03;
 
   // error
   .err { 
-    color            : $red;
-    background-color : $base02;
+    color:             $red;
+    background-color:  $base02;
   }
 
   // declaration e.g. #include
   .cp {
-    color       : $base01;
-    font-weight : bold;
+    color:        $base01;
+    font-weight:  bold;
   }
 
   // ??
   .cs {
-    color       : $base01;
-    font-weight : bold;
-    font-style  : italic;
+    color:        $base01;
+    font-weight:  bold;
+    font-style:   italic;
   }
 
   // diff deletion
   .gd {
-    color: $base0;
-    background-color : #fdd;
+    color:             $base0;
+    background-color:  #fdd;
   }
 
   // diff inline deletion
   .gd .x {
-    background-color : #faa;
+    background-color: #faa;
   }
 
   // diff ??
   .ge {
-    font-style : italic;
+    font-style: italic;
   }
 
   // diff insertion
   .gi {
-    background-color : #dfd;
+    background-color: #dfd;
   }
 
   // diff inline insertion
   .gi .x {
-    background-color : #afa;
+    background-color: #afa;
   }
 
   // diff ??
   .go {
-    color : $base0;
+    color: $base0;
   }
 
   // diff ??
   .gu {
-    color       : $magenta;
-    font-weight : bold;
+    color:        $magenta;
+    font-weight:  bold;
   }
 
   // diff ??
   .gs {
-    font-weight : bold;
+    font-weight: bold;
   }
 
   // diff ??
@@ -159,8 +159,8 @@ $green  :  #859900;
 
   // CSS class rule, Ruby class declaration
   .nc {
-    color: $yellow;
-    font-weight:bold;
+    color:        $yellow;
+    font-weight:  bold;
   }
 
   .m, .mf, .mh, .mi, .mo, .il {
@@ -179,7 +179,7 @@ $green  :  #859900;
 
   // constants?
   .no {
-    color : $yellow;
+    color: $yellow;
   }
 
   // class, global, and instance variables
@@ -190,7 +190,7 @@ $green  :  #859900;
   .ne, // ??
   .nf  // CSS id rule
   {
-    color: $red;
-    font-weight:bold;
+    color:        $red;
+    font-weight:  bold;
   }
 }

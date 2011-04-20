@@ -16,67 +16,67 @@ $cyan   :  #2aa198;
 $green  :  #859900;
 
 .highlight {
-  color            : $base00;
-  background-color : $base3;
+  color:             $base00;
+  background-color:  $base3;
 
   // error
   .err { 
-    color            : $red;
-    background-color : $base2;
+    color:             $red;
+    background-color:  $base2;
   }
 
   // declaration e.g. #include
   .cp {
-    color       : $base1;
-    font-weight : bold;
+    color:        $base1;
+    font-weight:  bold;
   }
 
   // ??
   .cs {
-    color       : $base1;
-    font-weight : bold;
-    font-style  : italic;
+    color:        $base1;
+    font-weight:  bold;
+    font-style:   italic;
   }
 
   // diff deletion
   .gd {
-    background-color : #fdd;
+    background-color: #fdd;
   }
 
   // diff inline deletion
   .gd .x {
-    background-color : #faa;
+    background-color: #faa;
   }
 
   // diff ??
   .ge {
-    font-style : italic;
+    font-style: italic;
   }
 
   // diff insertion
   .gi {
-    background-color : #dfd;
+    background-color: #dfd;
   }
 
   // diff inline insertion
   .gi .x {
-    background-color : #afa;
+    background-color: #afa;
   }
 
   // diff ??
   .go {
-    color : $base00;
+    color: $base00;
   }
 
   // diff ??
   .gu {
-    color       : $magenta;
-    font-weight : bold;
+    color:        $magenta;
+    font-weight:  bold;
   }
 
   // diff ??
   .gs {
-    font-weight : bold;
+    font-weight: bold;
   }
 
   // diff ??
@@ -126,8 +126,8 @@ $green  :  #859900;
 
   // comments
   .c, .cm, .c1 {
-    color: $base1;
-    font-style:italic;
+    color:       $base1;
+    font-style:  italic;
   }
 
   // keywords, symbols
@@ -156,12 +156,12 @@ $green  :  #859900;
 
   // CSS class rule, Ruby class declaration
   .nc {
-    color: $yellow;
-    font-weight:bold;
+    color:        $yellow;
+    font-weight:  bold;
   }
 
   .m, .mf, .mh, .mi, .mo, .il {
-    color:#099;
+    color:  #099;
   }
 
   // strings
@@ -187,7 +187,7 @@ $green  :  #859900;
   .ne, // ??
   .nf  // CSS id rule
   {
-    color: $red;
-    font-weight:bold;
+    color:        $red;
+    font-weight:  bold;
   }
 }
