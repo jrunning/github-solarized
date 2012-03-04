@@ -5,6 +5,7 @@ $base02 :  #073642;
 $base01 :  #586e75;
 $base00 :  #657b83;
 $base0  :  #839496;
+$base0_light: #c2c2c2;
 $base1  :  #93a1a1;
 $base2  :  #eee8d5;
 $base3  :  #fdf6e3;
@@ -46,15 +47,24 @@ $green  :  #859900;
     font-style:   italic !important;
   }
 
+  // line-highlight on hover, for commentable files
+  tr:hover td {
+    &, .gi, .gc, .gd {
+      background-color: #393a44 !important;
+      color: $base0_light !important;
+    }
+  }
+
   // diff deletion
   .gd {
-    color:             $base0 !important;
-    background-color:  #fdd !important;
+    background-color:  #582929 !important;
+    color:             $base0_light !important;
   }
 
   // diff inline deletion
   .gd .x {
-    background-color: #faa !important;
+    background-color: #874040 !important;
+    color:            $base0_light !important;
   }
 
   // diff ??
@@ -64,12 +74,14 @@ $green  :  #859900;
 
   // diff insertion
   .gi {
-    background-color: #dfd !important;
+    background-color: #2A592A !important;
+    color:            $base0_light !important;
   }
 
   // diff inline insertion
   .gi .x {
-    background-color: #afa !important;
+    background-color: #1b2b1b !important;
+    color:            $base0_light !important;
   }
 
   // diff ??

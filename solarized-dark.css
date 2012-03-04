@@ -3,11 +3,12 @@
 .highlight .err { color: #dc322f !important; background-color: #073642 !important; }
 .highlight .cp { color: #586e75 !important; font-weight: bold !important; }
 .highlight .cs { color: #586e75 !important; font-weight: bold !important; font-style: italic !important; }
-.highlight .gd { color: #839496 !important; background-color: #fdd !important; }
-.highlight .gd .x { background-color: #faa !important; }
+.highlight tr:hover td, .highlight tr:hover td .gi, .highlight tr:hover td .gc, .highlight tr:hover td .gd { background-color: #393a44 !important; color: #c2c2c2 !important; }
+.highlight .gd { background-color: #582929 !important; color: #c2c2c2 !important; }
+.highlight .gd .x { background-color: #874040 !important; color: #c2c2c2 !important; }
 .highlight .ge { font-style: italic !important; }
-.highlight .gi { background-color: #dfd !important; }
-.highlight .gi .x { background-color: #afa !important; }
+.highlight .gi { background-color: #2A592A !important; color: #c2c2c2 !important; }
+.highlight .gi .x { background-color: #1b2b1b !important; color: #c2c2c2 !important; }
 .highlight .go { color: #839496 !important; }
 .highlight .gu { color: #d33682 !important; font-weight: bold !important; }
 .highlight .gs { font-weight: bold !important; }
