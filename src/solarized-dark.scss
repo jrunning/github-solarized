@@ -18,186 +18,186 @@ $cyan   :  #2aa198;
 $green  :  #859900;
 
 .highlight {
-  color:             $base0      !important;
-  background-color:  $base03     !important;
+  color:             $base0 !important;
+  background-color:  $base03 !important;
 
   pre {
-    background-color: inherit     !important;
-    border:           inherit     !important;
-    border-radius:    inherit     !important;
+    background-color: inherit !important;
+    border:           inherit !important;
+    border-radius:    inherit !important;
   }
 
   // error
   .err {
-    color:             $red      !important;
-    background-color:  $base02   !important;
+    color:             $red !important;
+    background-color:  $base02 !important;
   }
 
   // declaration e.g. #include
   .cp {
-    color:        $base01        !important;
-    font-weight:  bold           !important;
+    color:        $base01 !important;
+    font-weight:  bold !important;
   }
 
   // ??
   .cs {
-    color:        $base01        !important;
-    font-weight:  bold           !important;
-    font-style:   italic         !important;
+    color:        $base01 !important;
+    font-weight:  bold !important;
+    font-style:   italic !important;
   }
 
   // diff deletion
   .gd {
-    color:             $base0    !important;
-    background-color:  #fdd      !important;
+    color:             $base0 !important;
+    background-color:  #fdd !important;
   }
 
   // diff inline deletion
   .gd .x {
-    background-color: #faa       !important;
+    background-color: #faa !important;
   }
 
   // diff ??
   .ge {
-    font-style: italic           !important;
+    font-style: italic !important;
   }
 
   // diff insertion
   .gi {
-    background-color: #dfd       !important;
+    background-color: #dfd !important;
   }
 
   // diff inline insertion
   .gi .x {
-    background-color: #afa       !important;
+    background-color: #afa !important;
   }
 
   // diff ??
   .go {
-    color: $base0                !important;
+    color: $base0 !important;
   }
 
   // diff ??
   .gu {
-    color:        $magenta       !important;
-    font-weight:  bold           !important;
+    color:        $magenta !important;
+    font-weight:  bold !important;
   }
 
   // diff ??
   .gs {
-    font-weight: bold            !important;
+    font-weight: bold !important;
   }
 
   // diff ??
   .gr, .gt {
-    color: $magenta              !important;
+    color: $magenta !important;
   }
 
   // diff ??
   .gh {
-    color: $base01               !important;
+    color: $base01 !important;
   }
 
   // diff ??
   .gp {
-    color: $base01               !important;
+    color: $base01 !important;
   }
 
   // special words (JS 'document', C 'NULL', Ruby 'require'
   .nb {
-    color: $green                !important;
+    color: $green !important;
   }
 
   // ??
   .ni {
-    color: $magenta              !important;
+    color: $magenta !important;
   }
 
   // HTML, Haml, XML tags
   .nt {
-    color: $blue                 !important;
+    color: $blue !important;
   }
 
   // ??
   .w {
-    color: $base01               !important;
+    color: $base01 !important;
   }
 
   // ??
   .sr {
-    color: $green                !important;
+    color: $green !important;
   }
 
   // ??
   .ss {
-    color: $cyan                 !important;
+    color: $cyan !important;
   }
 
   // comments
   .c, .cm, .c1 {
-    color: $base01               !important;
-    font-style:italic            !important;
+    color: $base01 !important;
+    font-style:italic !important;
   }
 
   // keywords, symbols
   .k, .kc, .kd, .kp, .kr, .kt, .o, .ow {
-    font-weight: bold            !important;
+    font-weight: bold !important;
   }
 
   .k {
-    color: $green                !important;
+    color: $green !important;
   }
 
   // keyword ??
   .kt {
-    color: $yellow               !important;
+    color: $yellow !important;
   }
 
   // special variables e.g. __FILE__, None
   .bp {
-    color: $base1                !important;
+    color: $base1 !important;
   }
 
   // module names e.g. "sys" in "import sys"
   .nn {
-    color: $base1                !important;
+    color: $base1 !important;
   }
 
   // CSS class rule, Ruby class declaration
   .nc {
-    color:        $yellow        !important;
-    font-weight:  bold           !important;
+    color:        $yellow !important;
+    font-weight:  bold !important;
   }
 
   // literals
   .m, .mf, .mh, .mi, .mo, .il {
-    color: $cyan                 !important;
+    color: $cyan !important;
   }
 
   // strings
   .s, .sb, .sc, .sd, .s2, .se, .sh, .si, .sx, .s1 {
-    color: $cyan                 !important;
+    color: $cyan !important;
   }
 
   // literals e.g. 3.14, 600px
   .na, .nv {
-    color: $cyan                 !important;
+    color: $cyan !important;
   }
 
   // constants?
   .no {
-    color: $yellow               !important;
+    color: $yellow !important;
   }
 
   // class, global, and instance variables
   .vc, .vg, .vi {
-    color: $blue                 !important;
+    color: $blue !important;
   }
 
   .ne, // ??
   .nf  // CSS id rule
   {
-    color:        $red           !important;
-    font-weight:  bold           !important;
+    color:        $red !important;
+    font-weight:  bold !important;
   }
 }
