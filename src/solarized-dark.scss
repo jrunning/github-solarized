@@ -21,6 +21,12 @@ $green  :  #859900;
   color:             $base0      !important;
   background-color:  $base03     !important;
 
+  pre {
+    background-color: inherit     !important;
+    border:           inherit     !important;
+    border-radius:    inherit     !important;
+  }
+
   // error
   .err {
     color:             $red      !important;

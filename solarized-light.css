@@ -1,6 +1,10 @@
 .highlight {
   color: #657b83 !important;
   background-color: #fdf6e3 !important; }
+  .highlight pre {
+    background-color: inherit     !important;
+    border: inherit     !important;
+    border-radius: inherit     !important; }
   .highlight .err {
     color: #dc322f !important;
     background-color: #eee8d5 !important; }
